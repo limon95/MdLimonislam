@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-left: 400px;
+}
+table{
+    border-collapse: collapse;
+}
+
+body{
+    background-color: #f6e58d;
+    width: 1280px;
+}
+
+span,strong,h1,h2,b,label{
+    font-family: lato;
+}
+
+input#Registraion {
+    outline: none;
+}
+
+input#Roll {
+    outline: none;
+}
+
+#scroll-text h2 {
+    color: rebeccapurple;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+label {
+    font-size: 20px;
+    color: #000000;
+    line-height: 45px;
+}
+input#Registraion {
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+input#Roll {
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+input[type="submit"] {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover{
+    color: black;
+    background-color: white;
+    transition:0.8s;
+}
+
+input[type="reset"] {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+input[type="reset"]:hover{
+    color: black;
+    background-color: white;
+    transition:0.8s;
+}
+
+.sign-up h1{
+    margin: 20px 0;
+}
+input#name {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input#email {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+select#division {
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+select#distric {
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+strong {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 25px;
+}
+textarea {
+    margin: 10px 0;
+    outline: none;
+}
